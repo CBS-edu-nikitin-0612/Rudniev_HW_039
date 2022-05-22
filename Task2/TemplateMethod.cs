@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Task2
 {
@@ -18,7 +14,7 @@ namespace Task2
 
     internal class MyClass : AbstractTemplateMethod
     {
-        public override void TemplateMethod()
+        public sealed override void TemplateMethod()
         {
             base.TemplateMethod();
             this.Method2();
